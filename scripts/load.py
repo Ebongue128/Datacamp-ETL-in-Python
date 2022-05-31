@@ -63,7 +63,7 @@ def delete_transactions():
 def main():
     print("[Load] Start")
     print("[Load] Inserting new rows")
-    insert_transactions
+    insert_transactions()
     print("[Load] Deleting rows not available in the new transformed data")
-    delete_transactions
+    delete_transactions()
     print("[Load] End")
